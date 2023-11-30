@@ -1,3 +1,7 @@
+
+
+// ... (import statements)
+
 import { useContext, useEffect, useState } from 'react';
 import { ThemeContext, themes } from '../../contexts/ThemeContext';
 
@@ -18,24 +22,40 @@ function Header() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   useEffect(() => {
+    const handleThemeChange = (evt) => {
+      const colorScheme = evt.matches ? themes.dark : themes.light;
+      setDarkMode((prevDarkMode) => {
+        if (prevDarkMode !== colorScheme === themes.dark) {
+          changeTheme(colorScheme);
+          localStorage.setItem('theme', colorScheme);
+        }
+        return colorScheme === themes.dark;
+      });
+    };
+
     if (
       (!localStorage.getItem('theme') &&
         window.matchMedia('(prefers-color-scheme: dark)').matches) ||
       localStorage.getItem('theme') === 'dark'
     ) {
-      setDarkMode(!darkMode);
-      changeTheme(themes.dark);
+      setDarkMode((prevDarkMode) => {
+        if (!prevDarkMode) {
+          changeTheme(themes.dark);
+        }
+        return !prevDarkMode;
+      });
     }
 
     window
       .matchMedia('(prefers-color-scheme: dark)')
-      .addEventListener('change', (evt) => {
-        const colorScheme = evt.matches ? themes.dark : themes.light;
-        setDarkMode(colorScheme === themes.dark);
-        changeTheme(colorScheme);
-        localStorage.setItem('theme', colorScheme);
-      });
-  }, []);
+      .addEventListener('change', handleThemeChange);
+
+    return () => {
+      window
+        .matchMedia('(prefers-color-scheme: dark)')
+        .removeEventListener('change', handleThemeChange);
+    };
+  }, [changeTheme]);
 
   return (
     <header className="header center">
@@ -48,11 +68,15 @@ function Header() {
           {({ changeTheme }) => (
             <ToggleDark
               toggleDark={() => {
-                setDarkMode(!darkMode);
-                const currentTheme = darkMode ? themes.light : themes.dark;
-                changeTheme(currentTheme);
-                localStorage.setItem('theme', currentTheme);
-                gaEvents.eventClickChangeTheme();
+                setDarkMode((prevDarkMode) => {
+                  const currentTheme = prevDarkMode ? themes.light : themes.dark;
+                  if (prevDarkMode !== currentTheme === themes.dark) {
+                    changeTheme(currentTheme);
+                    localStorage.setItem('theme', currentTheme);
+                    gaEvents.eventClickChangeTheme();
+                  }
+                  return !prevDarkMode;
+                });
               }}
               isDarkMode={darkMode}
             />
