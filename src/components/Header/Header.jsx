@@ -25,7 +25,7 @@ function Header() {
     const handleThemeChange = (evt) => {
       const colorScheme = evt.matches ? themes.dark : themes.light;
       setDarkMode((prevDarkMode) => {
-        if (prevDarkMode !== colorScheme === themes.dark) {
+        if ((prevDarkMode !== colorScheme) === themes.dark) {
           changeTheme(colorScheme);
           localStorage.setItem('theme', colorScheme);
         }
@@ -70,7 +70,7 @@ function Header() {
               toggleDark={() => {
                 setDarkMode((prevDarkMode) => {
                   const currentTheme = prevDarkMode ? themes.light : themes.dark;
-                  if (prevDarkMode !== currentTheme === themes.dark) {
+                  if ((prevDarkMode !== currentTheme ) === themes.dark) {
                     changeTheme(currentTheme);
                     localStorage.setItem('theme', currentTheme);
                     gaEvents.eventClickChangeTheme();
