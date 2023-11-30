@@ -1,0 +1,19 @@
+@import '../../styles/global-imports';
+
+.header {
+  height: 6em;
+  max-width: 1100px;
+  width: 95%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.header__logo {
+  margin: 0;
+}
+
+@include md(md) {
+  .header {
+    height: 8em;
+  }
+}
