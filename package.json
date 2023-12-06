@@ -1,7 +1,7 @@
 {
+  "homepage":"https://HarshikaAdarsh.github.io/portf",
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://artemshchirov.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -21,13 +21,14 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.js src/**/*.jsx",
-    "lint:fix": "npm run lint -- --fix",
-    "deploy": "npm run build && gh-pages -d build"
+    "lint:fix": "npm run lint -- --fix"
   },
   "eslintConfig": {
     "extends": [
