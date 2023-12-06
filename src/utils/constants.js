@@ -24,7 +24,7 @@ const PROJECTS = [
     id: 0,
     title: 'Agro-Tech',
     subtitle:
-      'The unique online Agriculture webapp allows farmer to sell their product in reasonable price also helps buyers to buy product directly from farmers flied.',
+      'This unique online Agriculture webapp allows farmer to sell their product in reasonable price also helps buyers to buy product directly from farmers fields. ',
     stack: ['html', 'css', 'Js', 'Nodejs', 'Mysql'],
     github: 'https://github.com/HarshikaAdarsh/Agriculture-tech',
    // link: 'https://',
@@ -32,8 +32,7 @@ const PROJECTS = [
   {
     id: 1,
     title: 'Portfolio ',
-    subtitle:
-      'This is my portfolio based on React. All my projects are here and their github link is also attached. All the link ',
+    subtitle:      'This is my portfolio developed using React Js and deployed on github pages. It coverd all of my projects (links attached), and the technologies on which they were developed are displayed as well.',
     stack: ['React', 'git', 'github', 'github page'],
     github: 'https://github.com/HarshikaAdarsh/portf',
    // link: 'https://vivercel.p',
@@ -42,7 +41,7 @@ const PROJECTS = [
     id: 2,
     title: 'DiscussIon',
     subtitle:
-      'This Web application is a Online New portal based on react. Here both admin and users are allow to read,add news and modify details  .',
+      'React-based Online News Portal allows both admins and users to read, add, and modify news seamlessly. Empowering users with easy access to current events and enabling administrators to manage content effortlessly.',
     stack: ['React', 'Node js', 'Express js', 'MongoDB'],
     github: 'https://github.com/HarshikaAdarsh/DiscussIon',
    // link: 'https://dvercel.app/',
@@ -51,7 +50,7 @@ const PROJECTS = [
     id: 3,
     title: 'BOOKNOOK',
     subtitle:
-      'This Web application is a Online Room Booking System based on react. Here both admin is allow to add,update and delete the data and user is allow to explore and book rooms  ',
+      'React-powered Online Room Booking System facilitates seamless admin control for data management (add, update, delete) and user-friendly room exploration and booking. Streamlined interface for efficient room reservations. ',
     stack: ['React.js', 'Node js', 'Express js', 'MongoDB'],
     github: 'https://github.com/HarshikaAdarsh/BookNook',
    // link: 'https://vercel.app/',
