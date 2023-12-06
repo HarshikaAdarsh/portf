@@ -24,37 +24,37 @@ const PROJECTS = [
     id: 0,
     title: 'Agro-Tech',
     subtitle:
-      'The unique online Agriculture webapp allows farmer to sell there product in reasonable price also helps buyers to buy product directly from farmers flied.',
+      'The unique online Agriculture webapp allows farmer to sell their product in reasonable price also helps buyers to buy product directly from farmers flied.',
     stack: ['html', 'css', 'Js', 'Nodejs', 'Mysql'],
-    github: 'https://github.com/',
-    link: 'https://',
+    github: 'https://github.com/HarshikaAdarsh/Agriculture-tech',
+   // link: 'https://',
   },
   {
     id: 1,
-    title: 'Diesease Prediction ',
+    title: 'Portfolio ',
     subtitle:
-      'An application that allows Patients or Users to predict their diesease in advance .',
-    stack: ['Python', 'Streamlit', 'Anaconda', 'jupiter'],
-    github: 'https://github.com',
-    link: 'https://vivercel.p',
+      'This is my portfolio based on React. All my projects are here and their github link is also attached. All the link ',
+    stack: ['React', 'git', 'github', 'github page'],
+    github: 'https://github.com/HarshikaAdarsh/portf',
+   // link: 'https://vivercel.p',
   },
   {
     id: 2,
-    title: 'Potato diesease prediction',
+    title: 'DiscussIon',
     subtitle:
-      'This Web application allows farmers and gardeners to predict the plant diesease from .',
-    stack: ['Python', 'Streamlit', 'Anaconda', 'jupiter'],
-    github: 'https://github.com',
-    link: 'https://dvercel.app/',
+      'This Web application is a Online New portal based on react. Here both admin and users are allow to read,add news and modify details  .',
+    stack: ['React', 'Node js', 'Express js', 'MongoDB'],
+    github: 'https://github.com/HarshikaAdarsh/DiscussIon',
+   // link: 'https://dvercel.app/',
   },
   {
     id: 3,
-    title: 'Project',
+    title: 'BOOKNOOK',
     subtitle:
-      'Coming soon.',
-    stack: ['React.js', 'TypeScript', 'TailwindCSS'],
-    github: 'https://github.com',
-    link: 'https://vercel.app/',
+      'This Web application is a Online Room Booking System based on react. Here both admin is allow to add,update and delete the data and user is allow to explore and book rooms  ',
+    stack: ['React.js', 'Node js', 'Express js', 'MongoDB'],
+    github: 'https://github.com/HarshikaAdarsh/BookNook',
+   // link: 'https://vercel.app/',
   },
   {
     id: 4,
@@ -63,7 +63,7 @@ const PROJECTS = [
       'Coming soon.',
     stack: ['React.js', 'TypeScript'],
     github: 'https://github.com',
-    link: 'https://github.com',
+   // link: 'https://github.com',
   },
   {
     id: 5,
@@ -72,7 +72,7 @@ const PROJECTS = [
       'Coming Soon.',
     stack: ['React.js', 'TypeScript', 'TailwindCSS'],
     github: 'https://github.com',
-    link: 'https://vercel.app/',
+   // link: 'https://vercel.app/',
   },
   {
     id: 6,
@@ -81,7 +81,7 @@ const PROJECTS = [
       'Coming Soon.',
     stack: ['React.js', 'TypeScript'],
     github: 'https://github.com',
-    link: 'https://github.com',
+//link: 'https://github.com',
   },
   {
     id: 7,
@@ -90,7 +90,7 @@ const PROJECTS = [
       'Coming Soon .',
     stack: ['React.js', 'Express.js', 'MongoDB'],
     github: 'https://github.com',
-    link: 'https://mov',
+  //  link: 'https://mov',
   },
   {
     id: 8,
@@ -99,7 +99,7 @@ const PROJECTS = [
       'Coming Soon.',
     stack: ['React.js', 'Express.js', 'MongoDB'],
     github: 'https://github.com',
-    link: 'https://arte',
+  //  link: 'https://',
   },
   {
     id: 9,
@@ -108,7 +108,7 @@ const PROJECTS = [
       'Coming Soon.',
     stack: ['JavaScript', 'CSS'],
     github: 'https://github.com',
-    link: 'https://',
+//link: 'https://',
   },
   {
     id: 10,
@@ -117,7 +117,7 @@ const PROJECTS = [
       'Coming Soon.',
     stack: ['React.js', 'CSS'],
     github: 'https://github.com',
-    link: 'https://',
+  //  link: 'https://',
   },
   {
     id: 11,
@@ -126,7 +126,7 @@ const PROJECTS = [
       'Coming Soon.',
     stack: ['React js',],
     github: 'https://github.com',
-    link: 'https://github.c',
+  //  link: 'https://github.c',
   },
   {
     id: 12,

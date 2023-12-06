@@ -24,13 +24,13 @@ function Project({ title, subtitle, stack, github, link }) {
           <i aria-hidden="true" className="fab fa-github" />
         </CustomLink>
 
-        <CustomLink
+        {/* <CustomLink
           path={link}
           className="link_type_icon"
           ariaLabel="live preview"
         >
           <i aria-hidden="true" className="fas fa-external-link-alt" />
-        </CustomLink>
+        </CustomLink>  */}
       </div>
     </article>
   );

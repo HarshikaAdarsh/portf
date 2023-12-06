@@ -13,7 +13,7 @@ function Projects({ cards, allProjects, displayedProjects, onClick }) {
             title={card.title}
             subtitle={card.subtitle}
             stack={card.stack}
-            link={card.link}
+           // link={card.link}
             github={card.github}
           />
         ))}
