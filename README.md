@@ -2,11 +2,11 @@
 <h1 align="center"> My React Portfolio </h1>
 <p align="center"><i><b> A Comprehensive ReactJS Project with Exciting Features</b></i></p>
 
-### Introduction.
+## Introduction.
 
 Welcome to My ReactJS Protfolio! This repository houses a powerful React application that showcases clean and efficient codebase. Whether you're a seasoned developer or just starting with React, this project provides a solid foundation for your own applications. This potfolio contains all my frontend and full stack project along with there github link. 
 
-### Technology used in this portfolio
+## Technology used in this portfolio
 #### * ReactJS:
  A JavaScript library for building user interfaces
 
@@ -31,7 +31,14 @@ A module bundler for JavaScript applications.
  Pluggable linting utility for JavaScript and JSX.
 
 
-### User Instructions
+## User Instructions
+
+### Prerequisites:
+
+Before running the project on your system, make sure that you have the following installed and configured:
+ * Any IDE (VS code) which you are using.
+ * Nodejs version v18.15.0 or higher.
+ * To check if it is intalled or not in your system. - open you cmd and write command "node -v".  
 
 #### Dependency Installation:
 
