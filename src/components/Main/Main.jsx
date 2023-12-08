@@ -74,7 +74,7 @@ function Main({ showAlert }) {
           I`m a Web Developer specializing in building (sometimes designing) web
           platforms and applications.
           <br />
-          Harshika, a 21 years old girl, overfilled with enthusiasm & craving for success. 
+          Harshika, a 21 year old girl, overfilled with enthusiasm & craving for success. 
           <br/>
 
           I am a keen and resourceful full-stack developer 
