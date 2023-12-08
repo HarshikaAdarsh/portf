@@ -39,10 +39,8 @@ CSS-in-JS library for styling React components.
 
 #### Dependency Installation:
 
-##### How you can tweak this porject for your own use
-
 * Clone the repository to your local machine.
-git clone https://github.com/HarshikaAdarsh/Agriculture-tech
+git clone https://harshikaadarsh.github.io/portf/
 
 * Navigate to the project directory.
 cd portf
