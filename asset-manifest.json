@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/portf/static/css/main.f6002762.css",
-    "main.js": "/portf/static/js/main.a3c9149e.js",
+    "main.js": "/portf/static/js/main.651086e5.js",
     "static/js/787.1ed0c42c.chunk.js": "/portf/static/js/787.1ed0c42c.chunk.js",
     "static/media/Harshika_CV.pdf": "/portf/static/media/Harshika_CV.b889aa74ef49709bd712.pdf",
     "index.html": "/portf/index.html",
     "main.f6002762.css.map": "/portf/static/css/main.f6002762.css.map",
-    "main.a3c9149e.js.map": "/portf/static/js/main.a3c9149e.js.map",
+    "main.651086e5.js.map": "/portf/static/js/main.651086e5.js.map",
     "787.1ed0c42c.chunk.js.map": "/portf/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f6002762.css",
-    "static/js/main.a3c9149e.js"
+    "static/js/main.651086e5.js"
   ]
 }
