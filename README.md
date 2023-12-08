@@ -4,7 +4,7 @@
 
 ### Introduction.
 
-Welcome to My Awesome ReactJS Project! This repository houses a powerful React application that showcases cutting-edge features and a clean, efficient codebase. Whether you're a seasoned developer or just starting with React, this project provides a great learning resource and a solid foundation for your own applications.
+Welcome to My ReactJS Protfolio! This repository houses a powerful React application that showcases clean and efficient codebase. Whether you're a seasoned developer or just starting with React, this project provides a solid foundation for your own applications. This potfolio contains all my frontend and full stack project along with there github link. 
 
 ### Technology used in this portfolio
 #### * ReactJS:
@@ -22,14 +22,10 @@ Promise-based HTTP client for the browser and Node.js.
 #### * Styled Components:
 CSS-in-JS library for styling React components.
 
-#### * Styled Components:
-CSS-in-JS library for styling React components.
 
 #### * Webpack:
 A module bundler for JavaScript applications.
 
-#### * Styled Components:
-CSS-in-JS library for styling React components.
 
 #### * Babel:
  Pluggable linting utility for JavaScript and JSX.
