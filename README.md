@@ -40,7 +40,7 @@ CSS-in-JS library for styling React components.
 #### Dependency Installation:
 
 * Clone the repository to your local machine.
-git clone https://harshikaadarsh.github.io/portf/
+git clone https://github.com/HarshikaAdarsh/portf
 
 * Navigate to the project directory.
 cd portf
