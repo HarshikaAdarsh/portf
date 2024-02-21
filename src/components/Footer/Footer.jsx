@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footer">
       <a
-        href="https://github.com/artemshchirov/portfolio"
+        href="https://github.com/HarshikaAdarsh/portf"
         className="link footer__link"
         target="_blank"
         rel="noopener noreferrer"
