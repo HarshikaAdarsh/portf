@@ -1,6 +1,5 @@
 import Stack from './Stack';
 import CustomLink from '../ui/CustomLink/CustomLink';
-
 import './Project.scss';
 import Title from '../ui/Title/Title';
 

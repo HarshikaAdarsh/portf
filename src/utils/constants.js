@@ -20,8 +20,27 @@ const SKILLS = [
 ];
 
 const PROJECTS = [
+
   {
     id: 0,
+    title: 'Hard-Drive-Prediction',
+    subtitle:
+      'A predictive app using machine learning to anticipate hard drive failures, safeguarding data integrity and minimizing downtime risks. ',
+    stack: ['Python', 'Machine Learning', 'Google Colab', 'Github', 'Html'],
+    github: 'https://github.com/HarshikaAdarsh/Hard-Drive-Failure-Prediciton',
+   // link: 'https://',
+  },
+   {
+    id: 1,
+    title: 'E-Commerce',
+    subtitle:
+      'Designed and developed a dynamic ecommerce platform using MERN stack, integrating seamless user experience with robust backend functionalities, ensuring secure transactions and efficient product management. ',
+    stack: ['React.js', 'Express.js', 'Nodejs', 'Mysql'],
+    github: 'https://github.com/HarshikaAdarsh/E-commerce',
+   // link: 'https://',
+  },
+   {
+    id: 2,
     title: 'Agro-Tech',
     subtitle:
       'This unique online Agriculture webapp allows farmer to sell their product in reasonable price also helps buyers to buy product directly from farmers fields. ',
@@ -30,7 +49,7 @@ const PROJECTS = [
    // link: 'https://',
   },
   {
-    id: 1,
+    id: 3,
     title: 'Portfolio ',
     subtitle:      'This is my portfolio developed using React Js and deployed on github pages. It coverd all of my projects (links attached), and the technologies on which they were developed are displayed as well.',
     stack: ['React', 'git', 'github', 'github page'],
@@ -38,7 +57,7 @@ const PROJECTS = [
    // link: 'https://vivercel.p',
   },
   {
-    id: 2,
+    id: 4,
     title: 'DiscussIon',
     subtitle:
       'React-based Online News Portal allows both admins and users to read, add, and modify news seamlessly. Empowering users with easy access to current events and enabling administrators to manage content effortlessly.',
@@ -47,7 +66,7 @@ const PROJECTS = [
    // link: 'https://dvercel.app/',
   },
   {
-    id: 3,
+    id: 5,
     title: 'BOOKNOOK',
     subtitle:
       'React-powered Online Room Booking System facilitates seamless admin control for data management (add, update, delete) and user-friendly room exploration and booking. Streamlined interface for efficient room reservations. ',
@@ -56,30 +75,30 @@ const PROJECTS = [
    // link: 'https://vercel.app/',
   },
   {
-    id: 4,
-    title: 'Project',
+    id: 6,
+    title: 'Multiple Disease Detection ',
     subtitle:
-      'Coming soon.',
-    stack: ['React.js', 'TypeScript'],
-    github: 'https://github.com',
+      'Developed a Disease Prediction System that amalgamates the fields of Medicine and technology. It can predict Parkinson’s, heart diseases, diabetes, and various other diseases based on inputs such as age, blood pressure, and various other diseasespecific inputs.',
+    stack: ['Python','Machine Learning', 'Streamlit', 'Kaggle', 'Jupiter'],
+    github: 'https://github.com/HarshikaAdarsh/ml-webapp',
    // link: 'https://github.com',
   },
   {
-    id: 5,
-    title: 'Project',
+    id: 7,
+    title: '3D Portfolio',
     subtitle:
-      'Coming Soon.',
-    stack: ['React.js', 'TypeScript', 'TailwindCSS'],
-    github: 'https://github.com',
+      'Crafted a captivating 3D portfolio using ReactJS and Three.js, enhancing user engagement with immersive graphics and animations. Credit to JavaScript Mastery channel for Threejs beginners video ',
+    stack: ['React.js', 'Three.js'],
+    github: 'https://github.com/HarshikaAdarsh/motionPortfolio',
    // link: 'https://vercel.app/',
   },
   {
-    id: 6,
-    title: 'Project',
+    id: 8,
+    title: 'Plant Disease Detection',
     subtitle:
-      'Coming Soon.',
-    stack: ['React.js', 'TypeScript'],
-    github: 'https://github.com',
+      'Developed a Web Application that uses convolutional neural network (CNN) method of deep learning. It can detect stages of disease of plant, and the appropriate treatment it needs through images. ',
+    stack: ['Python', 'Deep Learning', 'Streamlit', 'Kaggle'],
+    github: 'https://github.com/HarshikaAdarsh/ML_Plant_App',
 //link: 'https://github.com',
   },
   {
@@ -158,7 +177,7 @@ const PROJECTS = [
     id: 15,
     title: 'Project',
     subtitle:
-      'Web page describing various learning strategies, from experts such as Barbara Oakley, Feynman and Josh Kaufman.',
+      '',
     stack: ['HTML', 'CSS', 'Javascript', 'BEM'],
     github: 'http',
     link: 'https:/n',
@@ -167,7 +186,7 @@ const PROJECTS = [
     id: 16,
     title: 'Project',
     subtitle:
-      'A simple online console written as an exercise to learn React.js with styled-components library.',
+      '',
     stack: ['React.js', 'CSS', 'styled-components'],
     github: 'https://',
     link: 'https://',
@@ -175,7 +194,7 @@ const PROJECTS = [
   {
     id: 17,
     title: 'Project',
-    subtitle: 'A simple XO game written as an exercise to learn React.js.',
+    subtitle: '',
     stack: ['React.js', 'CSS'],
     github: 'https://github.com',
     link: 'https://github.com',
@@ -185,7 +204,7 @@ const PROJECTS = [
     id: 18,
     title: 'Project',
     subtitle:
-      'Getting started with Vue.js application that helps you find What To Watch When You Don`t Know What To Watch.',
+      '',
     stack: ['Vue.js', 'CSS', 'REST API'],
     github: 'https://github.com',
     link: 'https://',
@@ -194,7 +213,7 @@ const PROJECTS = [
     id: 19,
     title: 'Project',
     subtitle:
-      'A Stardew Valley style game. This includes farming, a day and night cycle, weather effects and a merchant.',
+      '',
     stack: ['Python', 'Pygame', 'Tiled'],
     github: 'https://github.com',
     link: 'https://github.com',
@@ -203,7 +222,7 @@ const PROJECTS = [
     id: 20,
     title: 'Project',
     subtitle:
-      'A Zelda style game. This includes weapons and enemies, a magic and spells, upgrades and a sound effects.',
+      '',
     stack: ['Python', 'Pygame', 'Tiled'],
     github: 'https://github.com',
     link: 'https://github.com',
@@ -212,7 +231,7 @@ const PROJECTS = [
     id: 21,
     title: 'Project',
     subtitle:
-      'Variety of The Game of Life, also known simply as Life, is a cellular automaton.',
+      '',
     stack: ['Python', 'Pygame'],
     github: 'https://github.com',
     link: 'https://github.com',
